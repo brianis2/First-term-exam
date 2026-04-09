@@ -57,3 +57,26 @@ Cómo ejecutar la API
 
 bash de Ubuntu
 cd api_proyecto
+
+## Terminal 1
+
+cd api_proyecto
+source venv/bin/activate  (venv)
+uvicorn main:app --reload
+http://127.0.0.1:8000/docs
+
+## Terminal 2
+
+cd api_proyecto
+source venv/bin/activate
+pip install requests
+nano bruteforce.py
+python bruteforce.py
+
+## Uvicorn
+uvicorn main:app --reload
+
+## FastAPI
+fastapi dev main.py
+
+
