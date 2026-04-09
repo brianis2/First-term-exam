@@ -20,7 +20,7 @@ Comprender cómo funcionan los endpoints CRUD en una API REST, cómo se realiza 
 - README.md: documentación del proyecto.
 
 ## Modelo de usuario
-El modelo User contiene los siguientes campos:
+El modelo de usuario contiene los siguientes campos:
 - id: identificador del usuario
 - username: nombre de usuario único
 - password: contraseña
